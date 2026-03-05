@@ -1,0 +1,21 @@
+[project]
+name = "opt-out-automation"
+version = "0.1.0"
+description = "The open-source project that provide a flexible solution to automate the process of opting out of data brokers."
+authors = [
+    {name = "GildasLepennetier", email = "gildas@lepennetier.com"},
+    {name = "Gildas", email = "GildasLepennetier@users.noreply.github.com"},
+    {name = "Gildas Lepennetier", email = "gildas@lepennetier.com"},
+]
+dependencies = []
+requires-python = ">=3.14"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = true
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
